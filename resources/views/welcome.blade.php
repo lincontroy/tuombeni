@@ -340,7 +340,7 @@
                     <form id="myForm">
                         <div class="form-group">
                             <label for="name">Name:</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                            <input type="text" class="form-control" id="names" placeholder="Enter your name" required>
                         </div>
                         <div class="form-group">
                             <label for="email">Email:</label>
@@ -348,7 +348,7 @@
                         </div>
                         <div class="form-group">
                             <label for="phoneNumber">Phone Number:</label>
-                            <input type="tel" class="form-control" id="phoneNumber" placeholder="Enter your phone number" required>
+                            <input type="tel" class="form-control" id="mobile" placeholder="Enter your phone number" required>
                         </div>
                         <button type="button" class="btn btn-primary" onclick="submitForm()">Submit</button>
                     </form>                 
@@ -472,13 +472,13 @@
 <script>
     function submitForm() {
         var formData = {
-            name: $('#name').val(),
+            name: $('#names').val(),
             email: $('#email').val(),
-            phoneNumber: $('#phoneNumber').val()
+            phoneNumber: $('#mobile').val()
         };
 
         // Assuming your API endpoint URL is 'https://example.com/api/submit'
-        var apiEndpoint = 'https://example.com/api/submit';
+        var apiEndpoint = 'https://tikiti.co.ke/api/webhook/benny-hinn';
 
         $.ajax({
             type: 'POST',
