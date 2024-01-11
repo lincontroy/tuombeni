@@ -94,7 +94,7 @@
                                             <div class="div-table">
                                                 <div class="div-cell">
                                                     <h2 class="caption-title" ><span>February 24TH 2024</span></h2>
-                                                    <h3 class="caption-subtitle">Kenya, Nairobi Crusade 2024</h3>
+                                                    <h3 class="caption-subtitle"> Healing the nation crusade</h3>
                                                    
                                                     <p class="caption-text">
                                                         <a class="btn btn-theme btn-theme-xl" href="#register" data-toggle="modal" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a>
@@ -284,7 +284,7 @@
                             <div class="col-md-8 pull-left">
                                 <h1 class="section-title">
                                     <span data-animation="flipInY" data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-star fa-stack-1x"></i></span></span>
-                                    <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner">Pre-event National ThanksGiving Day</span>
+                                    <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner">Pre-events</span>
                                 </h1>
                             </div>
                            
@@ -294,7 +294,7 @@
                         <div id="prevent" class="schedule-wrapper clear" data-animation="fadeIn" data-animation-delay="200">
                             <div class="schedule-tabs lv1">
                                 <ul id="tabs-lv1"  class="nav nav-justified">
-                                    <li class="active"><a href="#tab-first" data-toggle="tab"><strong>Date</strong> <br/>15th JANUARY 2024</a></li>
+                                    <li class="active"><a href="#tab-first" data-toggle="tab"><strong>Events</strong> <br/></a></li>
                                     
                                 </ul>
                             </div>
@@ -314,50 +314,19 @@
 
                                                 <article class="post-wrap" data-animation="fadeInUp" data-animation-delay="300">
                                                 
-
-                                                <img src="assets/img/img.jpeg" alt="" style="width: 100%; height: auto;"/>
-                                                            
-                                                  
-                                                    <div class="media">
-                                                        <!-- -->
-                                                       
-                                                        
-                                                        <!-- -->
-                                                        <div class="media-body">
-                                                            <div class="post-header">
-                                                                <div class="post-meta">
-                                                                    <span class="post-date"><i class="fa fa-clock-o"></i> 08:00am - 04:00pm</span>
-                                                                    <a href="#" class="pull-right">
-                                                                        <span class="fa-stack fa-lg">
-                                                                            <i class="fa fa-stack-2x fa-circle-thin"></i>
-                                                                            <i class="fa fa-stack-1x fa-share-alt"></i>
-                                                                        </span>
-                                                                    </a>
-                                                                </div>
-                                                                <h2 class="post-title"><a href="#">National ThanksGiving Day</a></h2>
-                                                            </div>
-                                                            <div class="post-body">
-                                                                <div class="post-excerpt">
-                                                                    <p></p>
-                                                                </div>
-                                                            </div>
-                                                            <!-- <div class="post-footer">
-                                                                <span class="post-readmore">
-                                                                    <i class="fa fa-microphone"></i> <strong>John Doe</strong> / CEO at Crown.io
-                                                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                                                </span>
-                                                            </div> -->
-                                                        </div>
-                                                        <!-- -->
+                                                <div class="row">
+                                                    <div class="media col-md-6">
+                                                        <img src="assets/img/img.jpeg" alt="Image 1" style="width: 100%; height: auto;">
                                                     </div>
+                                                    <div class="media col-md-6">
+                                                        <img src="assets/img/ev2.jpg" alt="Image 2" style="width: 100%; height: auto;">
+                                                    </div>
+                                                </div>
                                                 </article>
 
                                                
 
-                                            </div>
+                                            
                                         </div>
                                        
                                     </div>
