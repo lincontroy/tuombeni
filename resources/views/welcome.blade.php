@@ -314,10 +314,13 @@
 
                                                 <article class="post-wrap" data-animation="fadeInUp" data-animation-delay="300">
                                                 
-                                                            <img src="assets/img/img.jpeg" alt="" class="media"/>
+
+                                                <img src="assets/img/img.jpeg" alt="" style="width: 100%; height: auto;"/>
+                                                            
                                                   
                                                     <div class="media">
                                                         <!-- -->
+                                                       
                                                         
                                                         <!-- -->
                                                         <div class="media-body">
