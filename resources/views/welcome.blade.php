@@ -33,12 +33,7 @@
     </head>
     <body id="home" class="wide body-light">
 
-        <!-- Preloader -->
-        <div id="preloader">
-            <div id="status">
-                <div class="spinner"></div>
-            </div>
-        </div>
+       
 
         <!-- Wrap all content -->
         <div class="wrapper">
@@ -193,7 +188,7 @@
                                 <!-- Thumbnails -->
                                 <div class="row thumbnails">
 
-                                    <div class="col-sm-6 col-xs-6">
+                                    <div class="col-md-4">
                                         <div class="thumbnail no-border no-padding" data-animation="fadeInLeft" data-animation-delay="100">
                                             <div class="media">
                                                 <img src="https://www.bennyhinn.org/wp-content/uploads/2018/12/Benny-Hinn-Institute-Portrait-Benny-Hinn-Ministries-600x600.jpg" alt="">
@@ -208,22 +203,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-sm-6 col-xs-6">
-                                        <div class="thumbnail no-border no-padding" data-animation="fadeInDown" data-animation-delay="200">
-                                            <div class="media">
-                                                <img src="https://www.bennyhinn.org/wp-content/uploads/2023/12/eastercrusade4-29.png" alt="">
-                                                <div class="caption hovered">
-                                                    <div class="caption-wrapper div-table">
-                                                        <div class="caption-inner div-cell">
-                                                            <p class="caption-buttons"><a href="https://www.bennyhinn.org/wp-content/uploads/2023/12/eastercrusade4-29.png" class="btn caption-zoom" data-gal="prettyPhoto"><i class="fa fa-search"></i></a></p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6 col-xs-6">
+                                    <div class="col-md-4">
                                         <div class="thumbnail no-border no-padding" data-animation="fadeInLeft" data-animation-delay="100">
                                             <div class="media">
                                                 <img src="assets/img/1.jpg" alt="">
@@ -237,21 +217,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-sm-6 col-xs-6">
-                                        <div class="thumbnail no-border no-padding" data-animation="fadeInLeft" data-animation-delay="100">
-                                            <div class="media">
-                                                <img src="assets/img/2.jpg" alt="">
-                                                <div class="caption hovered">
-                                                    <div class="caption-wrapper div-table">
-                                                        <div class="caption-inner div-cell">
-                                                            <p class="caption-buttons"><a href="assets/img/2.jpg" class="btn caption-zoom" data-gal="prettyPhoto"><i class="fa fa-search"></i></a></p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-xs-6">
+                                    
+                                    <div class="col-md-4">
                                         <div class="thumbnail no-border no-padding" data-animation="fadeInLeft" data-animation-delay="100">
                                             <div class="media">
                                                 <img src="assets/img/3.jpg" alt="">
