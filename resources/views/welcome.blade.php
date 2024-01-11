@@ -180,64 +180,59 @@
                                 Says internationally-known evangelist and best-selling author Benny Hinn:</p>
                                 <p class="btn-row">
                                     <a href="#register" data-toggle="modal" class="btn btn-theme btn-theme-xl" data-animation="flipInY" data-animation-delay="200">Register <i class="fa fa-arrow-circle-right"></i></a><!--
-                                    --><a href="#" class="btn btn-theme btn-theme-xl btn-theme-transparent" data-animation="flipInY" data-animation-delay="400">Watch video</a>
+                                    --><a href="https://customer-zmd0mzidulq451sg.cloudflarestream.com/9dd547d53a00576c9a1d25084a4135d0/iframe?poster=https%3A%2F%2Fcustomer-zmd0mzidulq451sg.cloudflarestream.com%2F9dd547d53a00576c9a1d25084a4135d0%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600" class="btn btn-theme btn-theme-xl btn-theme-transparent" data-animation="flipInY" data-animation-delay="400">Watch video</a>
                                 </p>
                             </div>
-                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 pull-left">
-
-                                <!-- Thumbnails -->
-                                <div class="row thumbnails">
-
-                                    <div class="col-md-4">
-                                        <div class="thumbnail no-border no-padding" data-animation="fadeInLeft" data-animation-delay="100">
-                                            <div class="media">
-                                                <img src="https://www.bennyhinn.org/wp-content/uploads/2018/12/Benny-Hinn-Institute-Portrait-Benny-Hinn-Ministries-600x600.jpg" alt="">
-                                                <div class="caption hovered">
-                                                    <div class="caption-wrapper div-table">
-                                                        <div class="caption-inner div-cell">
-                                                            <p class="caption-buttons"><a href="https://www.bennyhinn.org/wp-content/uploads/2018/12/Benny-Hinn-Institute-Portrait-Benny-Hinn-Ministries-600x600.jpg" class="btn caption-zoom" data-gal="prettyPhoto"><i class="fa fa-search"></i></a></p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-4">
-                                        <div class="thumbnail no-border no-padding" data-animation="fadeInLeft" data-animation-delay="100">
-                                            <div class="media">
-                                                <img src="assets/img/1.jpg" alt="">
-                                                <div class="caption hovered">
-                                                    <div class="caption-wrapper div-table">
-                                                        <div class="caption-inner div-cell">
-                                                            <p class="caption-buttons"><a href="assets/img/1.jpg" class="btn caption-zoom" data-gal="prettyPhoto"><i class="fa fa-search"></i></a></p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="col-md-4">
-                                        <div class="thumbnail no-border no-padding" data-animation="fadeInLeft" data-animation-delay="100">
-                                            <div class="media">
-                                                <img src="assets/img/3.jpg" alt="">
-                                                <div class="caption hovered">
-                                                    <div class="caption-wrapper div-table">
-                                                        <div class="caption-inner div-cell">
-                                                            <p class="caption-buttons"><a href="assets/img/3.jpg" class="btn caption-zoom" data-gal="prettyPhoto"><i class="fa fa-search"></i></a></p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <!-- /Thumbnails -->
-
-                            </div>
+                           
                         </div>
+                        <div class="row">
+
+                                <div class="col-md-4">
+                                    <div class="thumbnail no-border no-padding" data-animation="fadeInLeft" data-animation-delay="100">
+                                        <div class="media">
+                                            <img src="assets/img/ben.jpg" alt="">
+                                            <div class="caption hovered">
+                                                <div class="caption-wrapper div-table">
+                                                    <div class="caption-inner div-cell">
+                                                        <p class="caption-buttons"><a href="assets/img/ben.jpg" class="btn caption-zoom" data-gal="prettyPhoto"><i class="fa fa-search"></i></a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="thumbnail no-border no-padding" data-animation="fadeInLeft" data-animation-delay="100">
+                                        <div class="media">
+                                            <img src="assets/img/1.jpg" alt="">
+                                            <div class="caption hovered">
+                                                <div class="caption-wrapper div-table">
+                                                    <div class="caption-inner div-cell">
+                                                        <p class="caption-buttons"><a href="assets/img/1.jpg" class="btn caption-zoom" data-gal="prettyPhoto"><i class="fa fa-search"></i></a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="thumbnail no-border no-padding" data-animation="fadeInLeft" data-animation-delay="100">
+                                        <div class="media">
+                                            <img src="assets/img/3.jpg" alt="">
+                                            <div class="caption hovered">
+                                                <div class="caption-wrapper div-table">
+                                                    <div class="caption-inner div-cell">
+                                                        <p class="caption-buttons"><a href="assets/img/3.jpg" class="btn caption-zoom" data-gal="prettyPhoto"><i class="fa fa-search"></i></a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                     
                     </div>
                 </section>
                 <!-- /PAGE ABOUT -->
@@ -335,9 +330,21 @@
                         <span data-animation="flipInY" data-animation-delay="300" class="icon-inner"><span class="fa-stack"><i class="fa rhex fa-stack-2x"></i><i class="fa fa-ticket fa-stack-1x"></i></span></span>
                         <span data-animation="fadeInRight" data-animation-delay="500" class="title-inner">Register now <small> / dont mıss event!</small></span>
                     </h1>
-                    <form id="registration-form" name="registration-form" class="registration-form" action="#" method="post">
-                        <iframe  src="http://eventbrite.com/tickets-external?eid=18432753863&amp;ref=etckt" frameborder="0" height="300px" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="no" allowtransparency="true"></iframe>
-                    </form>                  
+                    <form id="myForm">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phoneNumber">Phone Number:</label>
+                            <input type="tel" class="form-control" id="phoneNumber" placeholder="Enter your phone number" required>
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="submitForm()">Submit</button>
+                    </form>                 
                 </section>
             </div>
 
@@ -418,6 +425,33 @@
 
         </script>
 
+<script>
+    function submitForm() {
+        var formData = {
+            name: $('#name').val(),
+            email: $('#email').val(),
+            phoneNumber: $('#phoneNumber').val()
+        };
+
+        // Assuming your API endpoint URL is 'https://example.com/api/submit'
+        var apiEndpoint = 'https://example.com/api/submit';
+
+        $.ajax({
+            type: 'POST',
+            url: apiEndpoint,
+            contentType: 'application/json',
+            data: JSON.stringify(formData),
+            success: function(response) {
+                console.log('Data submitted successfully:', response);
+                // Handle success, e.g., show a success message to the user
+            },
+            error: function(error) {
+                console.error('Error submitting data:', error);
+                // Handle error, e.g., show an error message to the user
+            }
+        });
+    }
+</script>
     </body>
 </html>
 
