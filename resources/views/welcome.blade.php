@@ -85,19 +85,17 @@
                     <section class="page-section no-padding background-img-slider">
                         <div class="container">
 
-                            <div id="main-slider" class="owl-carousel owl-theme">
+                            <div id="main-slider" class=" owl-theme">
 
                                 <!-- Slide -->
-                                <div class="item page text-center slide0">
+                                <div class="item page text-center">
                                     <div class="caption">
                                         <div class="container">
                                             <div class="div-table">
                                                 <div class="div-cell">
-                                                    <h2 class="caption-title" data-animation="fadeInDown" data-animation-delay="100"><span>February 24TH 2024</span></h2>
-                                                    <h3 class="caption-subtitle" data-animation="fadeInUp" data-animation-delay="300">Kenya, Nairobi Crusade 2024</h3>
-                                                    <div class="countdown-wrapper">
-                                                        <div id="defaultCountdown" class="defaultCountdown clearfix"></div>
-                                                    </div>
+                                                    <h2 class="caption-title" ><span>February 24TH 2024</span></h2>
+                                                    <h3 class="caption-subtitle">Kenya, Nairobi Crusade 2024</h3>
+                                                   
                                                     <p class="caption-text">
                                                         <a class="btn btn-theme btn-theme-xl" href="#register" data-toggle="modal" data-animation="flipInY" data-animation-delay="600"> Register <i class="fa fa-arrow-circle-right"></i></a>
                                                     </p>
@@ -218,6 +216,49 @@
                                                     <div class="caption-wrapper div-table">
                                                         <div class="caption-inner div-cell">
                                                             <p class="caption-buttons"><a href="https://www.bennyhinn.org/wp-content/uploads/2023/12/eastercrusade4-29.png" class="btn caption-zoom" data-gal="prettyPhoto"><i class="fa fa-search"></i></a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 col-xs-6">
+                                        <div class="thumbnail no-border no-padding" data-animation="fadeInLeft" data-animation-delay="100">
+                                            <div class="media">
+                                                <img src="assets/img/1.jpg" alt="">
+                                                <div class="caption hovered">
+                                                    <div class="caption-wrapper div-table">
+                                                        <div class="caption-inner div-cell">
+                                                            <p class="caption-buttons"><a href="assets/img/1.jpg" class="btn caption-zoom" data-gal="prettyPhoto"><i class="fa fa-search"></i></a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-xs-6">
+                                        <div class="thumbnail no-border no-padding" data-animation="fadeInLeft" data-animation-delay="100">
+                                            <div class="media">
+                                                <img src="assets/img/2.jpg" alt="">
+                                                <div class="caption hovered">
+                                                    <div class="caption-wrapper div-table">
+                                                        <div class="caption-inner div-cell">
+                                                            <p class="caption-buttons"><a href="assets/img/2.jpg" class="btn caption-zoom" data-gal="prettyPhoto"><i class="fa fa-search"></i></a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-xs-6">
+                                        <div class="thumbnail no-border no-padding" data-animation="fadeInLeft" data-animation-delay="100">
+                                            <div class="media">
+                                                <img src="assets/img/3.jpg" alt="">
+                                                <div class="caption hovered">
+                                                    <div class="caption-wrapper div-table">
+                                                        <div class="caption-inner div-cell">
+                                                            <p class="caption-buttons"><a href="assets/img/3.jpg" class="btn caption-zoom" data-gal="prettyPhoto"><i class="fa fa-search"></i></a></p>
                                                         </div>
                                                     </div>
                                                 </div>

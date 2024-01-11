@@ -186,7 +186,7 @@ var theme = function () {
         },
         // Main Slider
         initMainSlider: function () {
-            $('#main-slider').owlCarousel({
+            $('#main-sliderr').owlCarousel({
                 //items: 1,
                 autoplay: true,
                 autoplayHoverPause: false,
