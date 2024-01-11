@@ -329,7 +329,7 @@
         <!-- /Wrap all content -->
 
         <!-- Popup: Register -->
-        <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal fade" id="register" tabindex="-1" role="modal" aria-hidden="true">
             <div class="modal-dialog modal-lg">                 
                 <button type="button" class="close close-btn" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 <section  class="popup-register">                  
@@ -339,7 +339,7 @@
                     </h1>
                     <form id="myForm">
                         <div class="form-group">
-                            <label for="name">Name:</label>
+                            <label for="names">Name:</label>
                             <input type="text" class="form-control" id="names" placeholder="Enter your name" required>
                         </div>
                         <div class="form-group">
@@ -347,10 +347,10 @@
                             <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
                         </div>
                         <div class="form-group">
-                            <label for="phoneNumber">Phone Number:</label>
+                            <label for="mobile">Phone Number:</label>
                             <input type="tel" class="form-control" id="mobile" placeholder="Enter your phone number" required>
                         </div>
-                        <button type="button" class="btn btn-primary" onclick="submitForm()">Submit</button>
+                        <button type="button" id="sub" class="btn btn-primary" onclick="submitForm()">Submit</button>
                     </form>                 
                 </section>
             </div>
@@ -371,6 +371,9 @@
         <script src="assets/plugins/placeholdem.min.js"></script>
         <script src="assets/plugins/jquery.smoothscroll.min.js"></script>
 
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
         <!-- JS Page Level -->
         <script src="assets/plugins/owlcarousel2/owl.carousel.min.js"></script>
@@ -471,10 +474,13 @@
 
 <script>
     function submitForm() {
+
+
+        $('#sub').text('Processing...');
         var formData = {
-            name: $('#names').val(),
+            names: $('#names').val(),
             email: $('#email').val(),
-            phoneNumber: $('#mobile').val()
+            mobile: $('#mobile').val()
         };
 
         // Assuming your API endpoint URL is 'https://example.com/api/submit'
@@ -485,8 +491,33 @@
             url: apiEndpoint,
             contentType: 'application/json',
             data: JSON.stringify(formData),
+            headers: {
+            'Accept': 'application/json'  
+            },
             success: function(response) {
-                console.log('Data submitted successfully:', response);
+                // console.log('Data submitted successfully:', response);
+                // Check the 'status' property in the response
+            if (response && response.status === 'success') {
+                // The status is success, you can handle it here
+                // console.log('Request was successful!');
+                $('#register').modal('hide');
+
+
+                Swal.fire({
+                title: "Success",
+                text: "You have successfully registerd for the event",
+                icon: "success"
+                });
+            } else {
+                // Handle other status values or unexpected responses
+                // console.log('Unexpected response:', response);
+                $('#register').modal('hide');
+                Swal.fire({
+                    title: "Opps",
+                    text: "An error occured",
+                    icon: "error"
+                    });
+            }
                 // Handle success, e.g., show a success message to the user
             },
             error: function(error) {
