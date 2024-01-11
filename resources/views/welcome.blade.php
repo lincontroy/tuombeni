@@ -180,7 +180,10 @@
                                 Says internationally-known evangelist and best-selling author Benny Hinn:</p>
                                 <p class="btn-row">
                                     <a href="#register" data-toggle="modal" class="btn btn-theme btn-theme-xl" data-animation="flipInY" data-animation-delay="200">Register <i class="fa fa-arrow-circle-right"></i></a><!--
-                                    --><a href="https://customer-zmd0mzidulq451sg.cloudflarestream.com/9dd547d53a00576c9a1d25084a4135d0/iframe?poster=https%3A%2F%2Fcustomer-zmd0mzidulq451sg.cloudflarestream.com%2F9dd547d53a00576c9a1d25084a4135d0%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600" class="btn btn-theme btn-theme-xl btn-theme-transparent" data-animation="flipInY" data-animation-delay="400">Watch video</a>
+                                    -->
+                                   
+                                    <a href="#" class="btn btn-theme btn-theme-xl btn-theme-transparent" onclick="showVideo()" data-animation="flipInY" data-animation-delay="400">Watch video</a>
+
                                 </p>
                             </div>
                            
@@ -428,6 +431,43 @@
             });
 
         </script>
+
+<script>
+    function showVideo() {
+        // Create a div to hold the iframe
+        var videoContainer = document.createElement('div');
+        videoContainer.style.position = 'fixed';
+        videoContainer.style.top = '0';
+        videoContainer.style.left = '0';
+        videoContainer.style.width = '100%';
+        videoContainer.style.height = '100%';
+        videoContainer.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
+        videoContainer.style.zIndex = '9999';
+
+        // Create the iframe
+        var iframe = document.createElement('iframe');
+        iframe.src = 'https://customer-zmd0mzidulq451sg.cloudflarestream.com/9dd547d53a00576c9a1d25084a4135d0/iframe?poster=https%3A%2F%2Fcustomer-zmd0mzidulq451sg.cloudflarestream.com%2F9dd547d53a00576c9a1d25084a4135d0%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600';
+        iframe.style.width = '80%';
+        iframe.style.height = '80%';
+        iframe.style.position = 'absolute';
+        iframe.style.top = '50%';
+        iframe.style.left = '50%';
+        iframe.style.transform = 'translate(-50%, -50%)';
+
+        // Append the iframe to the container
+        videoContainer.appendChild(iframe);
+
+        // Append the container to the body
+        document.body.appendChild(videoContainer);
+
+        // Close the video on click outside the iframe
+        videoContainer.addEventListener('click', function(event) {
+            if (event.target === videoContainer) {
+                document.body.removeChild(videoContainer);
+            }
+        });
+    }
+</script>
 
 <script>
     function submitForm() {
