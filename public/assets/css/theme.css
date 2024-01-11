@@ -270,7 +270,7 @@ body.boxed {
 .page-section.background-img-slider {position: relative;}
 .wide .page-section.background-img-slider,
 .boxed .page-section.background-img-slider > .container {
-    background: transparent url("https://www.bennyhinn.org/wp-content/uploads/2023/12/VH6I9392-1536x1024.jpg") 50% 0 repeat !important;
+    background: transparent url("/assets/img/ben.jpg") 50% 0 repeat !important;
     background-position: 50% 0 !important;
     background-size: cover !important;
 }

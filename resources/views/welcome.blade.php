@@ -314,7 +314,7 @@
 
                                                 <article class="post-wrap" data-animation="fadeInUp" data-animation-delay="300">
                                                 
-                                                            <img src="assets/img/img.jpeg" alt="" class=""  width="400" height="400"/>
+                                                            <img src="assets/img/img.jpeg" alt="" class="media"/>
                                                   
                                                     <div class="media">
                                                         <!-- -->
