@@ -313,11 +313,12 @@
                                             <div class="timeline">
 
                                                 <article class="post-wrap" data-animation="fadeInUp" data-animation-delay="300">
+                                                
+                                                            <img src="assets/img/img.jpeg" alt="" class=""  width="400" height="400"/>
+                                                  
                                                     <div class="media">
                                                         <!-- -->
-                                                        <!-- <div class="post-media pull-left">
-                                                            <img src="assets/img/img.jpeg" alt="" class="media-object" />
-                                                        </div> -->
+                                                        
                                                         <!-- -->
                                                         <div class="media-body">
                                                             <div class="post-header">
