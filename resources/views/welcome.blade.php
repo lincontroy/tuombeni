@@ -338,9 +338,7 @@
                                                             </div>
                                                             <div class="post-body">
                                                                 <div class="post-excerpt">
-                                                                    <p>The day is often marked by expressions of thanks, whether through prayers, speeches, or simply by sharing heartfelt sentiments around the dinner table. Gratitude extends to the past, acknowledging the historical roots of Thanksgiving and the diverse contributions that have shaped the nation.
-
-National Thanksgiving Day serves as a reminder to pause amid the hustle and bustle of daily life, offering a moment to appreciate the blessings that bind communities and individuals together. It is a time-honored tradition that transcends generations, fostering a spirit of unity, reflection, and gratitude that resonates throughout the nation.</p>
+                                                                    <p></p>
                                                                 </div>
                                                             </div>
                                                             <!-- <div class="post-footer">
