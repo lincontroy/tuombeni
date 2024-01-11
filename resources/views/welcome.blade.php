@@ -202,6 +202,8 @@
                                     </div>
                                 </div>
 
+                                <br>
+
                                 <div class="col-md-4">
                                     <div class="thumbnail no-border no-padding" data-animation="fadeInLeft" data-animation-delay="100">
                                         <div class="media">
@@ -216,6 +218,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                <br>
 
                                 <div class="col-md-4">
                                     <div class="thumbnail no-border no-padding" data-animation="fadeInLeft" data-animation-delay="100">
@@ -231,6 +234,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                <br>
                         </div>
                      
                     </div>
